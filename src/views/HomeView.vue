@@ -9,7 +9,7 @@ const links = [
 
 <template>
   <v-container class="fill-height" fluid>
-    <v-row align="start" justify="center">
+    <v-row align="center" justify="center">
       <v-col cols="12" md="7">
         <h1 class="name">Matt<br />Penfield</h1>
         <v-divider class="my-4" thickness="2" length="280" color="black" />
