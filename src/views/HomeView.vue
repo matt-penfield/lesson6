@@ -46,6 +46,7 @@ const links = [
   line-height: 0.85;
   letter-spacing: -0.04em;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 .link-item {
