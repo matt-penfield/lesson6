@@ -10,7 +10,7 @@ const links = [
 <template>
   <v-container class="fill-height" fluid>
     <v-row align="start" justify="center">
-      <v-col cols="12" md="7">
+      <v-col cols="12" md="7" class="pt-0">
         <h1 class="name">Matt<br />Penfield</h1>
         <v-divider class="my-4" thickness="2" length="280" color="black" />
         <p class="text-body-1 font-weight-light" style="letter-spacing: 0.02em; max-width: 280px;">
@@ -18,7 +18,7 @@ const links = [
         </p>
       </v-col>
 
-      <v-col cols="12" md="5">
+      <v-col cols="12" md="5" class="pt-0">
         <v-list lines="one" bg-color="transparent" class="pa-0">
           <v-list-item
             v-for="link in links"
